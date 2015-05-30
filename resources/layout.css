@@ -36,14 +36,17 @@ a:hover {
 }
 
 #nav {
-	margin: 0 20px 0 0;
+	float: left;
+	width: 20%; 
+	background-color: #cccccc;
   /* CHALLENGE 3: how could you get this to float to the left side of the screen? */
 }
 
 #main {
-	margin: 0;
+	margin-left: 20%;
 	border: 1px blue;
-	border-style: dashed;
+	border-style: double;
+	border-spacing: 4px;
   /*  CHALLENGE 3: how could you get this to float to the left side of the screen? */
   /* CHALLENGE 2: how could you give this element a one-pixel border down its left side? */
 }
